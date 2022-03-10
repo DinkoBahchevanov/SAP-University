@@ -3,8 +3,8 @@
     {
       "id": 2,
       "name": "admin",
-      "mail": "admin@gmail.com",
-      "password": "Admin_123",
+      "mail": "admin@abv.bg",
+      "password": "Admin",
       "role": "admin"
     },
     {
