@@ -1,0 +1,11 @@
+<nav class="topnav">
+  <div>
+      <a class="active" routerLink="/">All Ads</a>
+  </div>
+    <div *ngIf="currentUser.role !== 'admin'">
+      <a routerLink="/ads/my-ads">Applied Ads</a>
+    </div>
+    <div *ngIf="currentUser.role === 'admin'">
+      <a routerLink="/ads/create">Create Ad</a>
+    </div>
+</nav>

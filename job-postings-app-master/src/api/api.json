@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "admin",
+      "mail": "admin@gmail.com",
+      "password": "Admin_123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Atanas",
+      "mail": "atanas@gmail.com",
+      "password": "nakata",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "name": "Dinko",
+      "mail": "dinko@gmail.com",
+      "password": "dinkata",
+      "role": "user"
+    }
+  ],
+  "ads": [
+    {
+      "id": 7,
+      "creator": 1,
+      "title": "Java & Angular Fullstack dev",
+      "description": "Fullstack Dev in SpaceCube",
+      "category": "Development",
+      "type": "Full Time",
+      "likes": [
+        1
+      ],
+      "pendingApplicants": [
+        3
+      ],
+      "rejectedApplicants": [
+        2
+      ]
+    },
+    {
+      "id": 8,
+      "creator": 1,
+      "title": "Angular Dev",
+      "description": "Need an angular god",
+      "category": "Development",
+      "type": "Full Time",
+      "pendingApplicants": [
+        2,
+        3
+      ],
+      "likes": []
+    },
+    {
+      "id": 9,
+      "creator": 1,
+      "title": "Java & Angular Fullstack dev",
+      "description": "Fullstack Dev in SpaceCube",
+      "category": "Development",
+      "type": "Full Time",
+      "likes": [],
+      "pendingApplicants": [
+        3
+      ],
+      "rejectedApplicants": [
+        2
+      ]
+    },
+    {
+      "id": 10,
+      "creator": 2,
+      "title": "BabaMeca",
+      "description": "dasdsa",
+      "category": "Office Administration",
+      "type": "Full Time"
+    }
+  ]
+}
